@@ -1,0 +1,31 @@
+### Get path
+GET http://localhost:3000/3/2
+Content-Type: application/json
+
+### Get path
+GET http://localhost:3000/2/6
+Content-Type: application/json
+
+### Get vertex
+GET http://localhost:3000/
+Content-Type: application/json
+
+### Get neighbours
+GET http://localhost:3000/3
+Content-Type: application/json
+
+### Load demo
+POST http://localhost:3000/demo
+Content-Type: application/json
+
+### Add edge
+POST http://localhost:3000/3/2
+Content-Type: application/json
+
+{"cost": 25}
+
+### Get vertex
+GET http://localhost:3000/3/2
+Content-Type: application/json
+
+###
